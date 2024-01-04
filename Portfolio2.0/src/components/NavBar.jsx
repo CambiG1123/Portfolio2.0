@@ -10,6 +10,9 @@ const NavBar = () => {
   const handleNav = () => {
     setShowNav(!showNav);
   };
+  const handleClose = () => {
+    setShowNav(false);
+  }
   return (
     <div>
       <FiAlignCenter
@@ -17,7 +20,7 @@ const NavBar = () => {
         className="absolute top-4 right-4 z-[99] md:hidden "
       />
       {showNav ? (
-        <div className="fixed w-full h-screen bg-gray-500/90 flex flex-col justify-center items-center z-20">
+        <div on onClick={handleClose} className="fixed w-full h-screen bg-gray-500/90 flex flex-col justify-center items-center z-20">
           <a
             href="#home"
             className="w-{75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
