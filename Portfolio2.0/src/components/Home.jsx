@@ -53,8 +53,8 @@ const WordFlicker = () => {
 const Home = () => {
   return (
     <div id='home' className="relative">
+      <div className='w-full h-screen absolute top-0 left-0 bg-gradient-to-t from-gray-200 to-transparent'></div>
     <img className='w-full h-screen object-cover object-left' src={backgroundImage}/>
-    <div className='w-full h-screen absolute top-0 left-0 bg-white/25'></div>
     <div className='absolute rounded-2xl top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
   
       <h1 className='sm:text-5xl text-4xl font-bold text-center text-black'>Hi, I'm <span className='text-cyan-700'>Campbell</span></h1>

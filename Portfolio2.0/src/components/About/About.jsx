@@ -7,7 +7,7 @@ const aboutItems = [
     title: "Current Profession: Electrician",
     duration: "2018-Present",
     details:
-      "I am a qualified electrician with a passion for technology and problem solving. I have been working in the electrical industry for the past 5 years and have worked on a variety of projects in residential and commercial spaces. With a focus on the various needs of clients, I have real world experience in making a client's vision a reality. I have worked in multiple teams of varying sizes as well as independently out in the field. I am a hard worker and a quick learner who is always looking to improve my skills and knowledge. I am currently looking to make a career change into the tech industry and am excited to see where this journey takes me.",
+      "As a qualified electrician, I have a passion for technology and problem solving. I have worked in the electrical industry for the past 5 years on a range of projects in residential and commercial spaces. With a focus on the varied needs of clients, I have real world experience in making a client's vision a reality. I have worked in multiple teams of varying sizes as well as independently out in the field. I am always looking to improve my skills and knowledge and because of this am seeking to make a career change into the tech industry and am excited to see where this journey takes me.",
   },
   
 ];
