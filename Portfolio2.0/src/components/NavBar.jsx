@@ -32,7 +32,7 @@ const NavBar = () => {
             spy={true}
             onClick={handleClose}
             smooth={true}
-            duration={500}
+            duration={2000}
             className="w-{75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineHome size={25} />
@@ -43,7 +43,7 @@ const NavBar = () => {
             onClick={handleClose}
             spy={true}
             smooth={true}
-            duration={500}
+            duration={1000}
             className="w-{75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <FiUser size={25} />
@@ -54,7 +54,7 @@ const NavBar = () => {
             to="port"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={1000}
             className="w-{75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <FiBriefcase size={25} />
@@ -65,7 +65,7 @@ const NavBar = () => {
             to="contact"
             spy={true}
             smooth={true}
-            duration={500}
+            duration={2000}
             className="w-{75%} flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
           >
             <AiOutlineMail size={25} />
@@ -79,7 +79,7 @@ const NavBar = () => {
               to="home"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={2000}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <AiOutlineHome size={25} />
@@ -88,7 +88,7 @@ const NavBar = () => {
               to="about"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <FiUser size={25} />
@@ -97,7 +97,7 @@ const NavBar = () => {
               to="port"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={1000}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <FiBriefcase size={25} />
@@ -106,7 +106,7 @@ const NavBar = () => {
               to="contact"
               spy={true}
               smooth={true}
-              duration={500}
+              duration={2000}
               className="rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200"
             >
               <AiOutlineMail size={25} />

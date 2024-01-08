@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Home from "./components/Home";
 import About from "./components/About/About";
 import Port from "./components/Port/Port";
+import Contact from "./components/Contact/ContactForm";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <Home />
       <About />
       <Port />
+      <Contact />
     </>
   );
 }
